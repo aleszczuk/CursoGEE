@@ -1,0 +1,19 @@
+---
+title: "Introducción a Google Earth Engine"
+author: "Leszczuk Andrés"
+date: "Actualizado al 28 de enero, 2021"
+geometry: margin=2cm
+fontsize: 12pt
+line-height: 1.5
+output: 
+  pdf_document:
+  highlight: tango
+  toc: true # que este visible el indice
+  toc_depth: 2 #Numero de niveles visibles 
+---
+
+
+## Nivel 1
+### Sub nivel 1.1 
+
+## Nivel 2 
