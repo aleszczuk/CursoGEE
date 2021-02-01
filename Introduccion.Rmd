@@ -57,3 +57,34 @@ Probemos con el siguiente fragmento de código:
 la doble barra (**//**) sirve para comentar código, y es utilizado en su mayor parte para realizar anotaciones por parte del programador o para inhabilitar código para que no se ejecute. Si el interprete de JS, **"lee"** una sentencia comentada la ignora y pasa hacia la siguiente.
 
 Es una buena práctica poner muchos comentarios en tu código para describirlo y reutilizarlo luego de un tiempo. Pero tambien resulta bueno eliminar código comentado si no sirve para el funcionamiento del script.
+
+## Tipo de datos de JS
+### Strings
+
+Son variables del tipo texto o cadena y se identifican en el código por medio de comillas simpres **'** o dobles **"**
+
+IMPORTANTE: No mesclar las comillas simples y las dobles (o una u otra). Para los desarrolladores de JS es recomendable las simples.
+
+```{js}
+// Creo la variable y le asigno el texto
+var hola_mundo = "hola mundo";
+// Imprimo en la consola para observar el resultado
+print(hola_mundo);
+```
+
+Wow, tanto código para solamente imprimir la frase que anteriormente vimos. Espera, acá desarrollamos varias cosas nuevas:
+
+- **var** : es una palabra reservada de JS que se utiliza para crear una variable, en este caso denominada **hola_mundo**, a la que se le asigna (mediante el simbolo **=**) la cadena de texto **"hola mundo"**. Internamente en este proceso crea una variable, le asigna un contenido y la almacena en memoria.
+
+- si la variable no se imprime por medio de la funcion print no se verá en la consola, pero si se creará y guardará.
+
+## Números
+Otra variable utilizada son los números
+
+```{js}
+// Almacenamos un número en una variable
+var numero = 73;
+// imprimimos en consala a numero;
+print(numero);
+```
+
