@@ -7,13 +7,53 @@ fontsize: 12pt
 line-height: 1.5
 output: 
   pdf_document:
-  highlight: tango
   toc: true # que este visible el indice
   toc_depth: 2 #Numero de niveles visibles 
 ---
 
+# Cápitulo 1
+## ¿Qué es Google Earth Engine?
 
-## Nivel 1
-### Sub nivel 1.1 
 
-## Nivel 2 
+Si nos dirigimos a la **[página oficial](https://developers.google.com/earth-engine/)**, nos dan una calurosa bienvenida y nos explican que Google Earth Engine (GEE desde aquí en adelante) en una plataforma de procesamiento geoespacial impulsado por Google Cloud Plataform ("Nube de Google")
+
+Los objetivos de GEE son:
+
+1. Proporcionar una plataforma interactiva para el desarrollo de algoritmos para estudios geoespaciales.
+2. Permitir la ciencia de alto impacto, impulsada por los datos.
+3. Lograr información que tenga impacto a nivel global.
+
+GEE nació a finales de 2010 como una forma de eliminar la limitante computacional del procesamientos de datos geoespaciales. Permite procesar la información en la nube sin necesidad de utilizar la memoria de las computadoras personales de los usuarios. Permitiendo el manejo de datos masivos (**"Big Data"**) (Perilla y Mas, 2020)
+
+```{r, echo=FALSE, out.width = "20%",fig.align="center"}
+#Imagen logo GEE
+library(knitr)
+include_graphics("I:/BACKUPPERSONAL/LESZCZUK/DiscoPosMorten/Docencia/HSD/Curso GEE 2021/CursoGEE/01_Logo_GEE.png")
+```
+
+
+\pagebreak
+
+
+# Cápitulo 2
+
+## JavaScript para principiantes
+
+Si queremos imprimir texto en la consola podemos escribir el siguiente código:
+
+```{js}
+print("hello world");
+```
+Y le damos al botón **Run** y se observa que se imprimirá el resultado en la Consola (**Console tab**) y se mostrará la oración ***"hello world"***.
+Aquí hay dos cosas que destacar, que la función print no se imprime en consola y que la sintaxis termina con un punto y coma (semicolon en ingles). La oración completa es lenguaje de programación JavaScript (JS) y GEE se basa en este lenguaje para funcionar.
+
+Probemos con el siguiente fragmento de código:
+
+
+```{js}
+//print("hello world");
+```
+
+la doble barra (**//**) sirve para comentar código, y es utilizado en su mayor parte para realizar anotaciones por parte del programador o para inhabilitar código para que no se ejecute. Si el interprete de JS, **"lee"** una sentencia comentada la ignora y pasa hacia la siguiente.
+
+Es una buena práctica poner muchos comentarios en tu código para describirlo y reutilizarlo luego de un tiempo. Pero tambien resulta bueno eliminar código comentado si no sirve para el funcionamiento del script.
